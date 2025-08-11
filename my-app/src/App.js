@@ -1,9 +1,5 @@
 
 import './App.css';
-
-// Component inspired by Tom Miller from the GSAP community
-// https://codepen.io/creativeocean/pen/NPWLwJM
-
 import ScrambledText from './ScrambledText';
 
 function App() {
