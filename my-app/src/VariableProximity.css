@@ -2,7 +2,7 @@
 
 .variable-proximity {
   font-family: "Roboto Flex", sans-serif;
-  font-size:"50px"
+  font-size: 50px; /* no quotes */
 }
 
 .sr-only {
