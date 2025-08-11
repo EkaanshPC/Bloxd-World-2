@@ -87,6 +87,7 @@ function App() {
   speed={0.5}
   scrambleChars={".:"}
 >
+  Bloxd Lands
 </ScrambledText>
 
     </div>
