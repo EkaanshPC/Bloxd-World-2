@@ -1,7 +1,6 @@
 .App {
   height: 100vh; /* full viewport height */
   display: flex;
-  justify-content: center; /* horizontal center */
   background: #111;        /* optional: dark background so text pops */
   color: white;            /* make text visible */
   user-select: none;       /* prevent accidental text selection */
