@@ -75,7 +75,7 @@ const ScrambledText = ({
     </div>
   );
 };
-import { useRef } from 'react';
+
 import VariableProximity from './VariableProximity';
 const containerRef = useRef(null);
 
