@@ -2,7 +2,8 @@
 
 .variable-proximity {
   font-family: "Roboto Flex", sans-serif;
-  font-size: 50px; /* no quotes */
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 .sr-only {
