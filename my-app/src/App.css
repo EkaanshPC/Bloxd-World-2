@@ -1,3 +1,11 @@
 .App {
-  text-align: center;
+  height: 100vh; /* full viewport height */
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  background: #111;        /* optional: dark background so text pops */
+  color: white;            /* make text visible */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* nice font */
+  user-select: none;       /* prevent accidental text selection */
+  margin: 0;               /* reset any margin */
 }
