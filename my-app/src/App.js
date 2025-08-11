@@ -13,7 +13,7 @@ function App() {
     >
       <img
         className="logo"
-        src="./pixil-frame-0 (21).png"
+        src="./bloxdlandslogo.png"
         alt="Logo"
       />
       <VariableProximity
