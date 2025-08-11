@@ -75,22 +75,27 @@ const ScrambledText = ({
     </div>
   );
 };
+import { useRef } from 'react';
+import VariableProximity from './VariableProximity';
+const containerRef = useRef(null);
 
 function App() {
   return (
-    <div className="App">
-
-<ScrambledText
-  className="scrambled-text-demo"
-  radius={100}
-  duration={1.2}
-  speed={0.5}
-  scrambleChars={".:"}
+   <div
+   className="App"
+ref={containerRef}
+style={{position: 'relative'}}
 >
-  Bloxd Lands
-</ScrambledText>
-
-    </div>
+  <VariableProximity
+    label={'Bloxd World'}
+    className={'variable-proximity-demo'}
+    fromFontVariationSettings="'wght' 400, 'opsz' 9"
+    toFontVariationSettings="'wght' 1000, 'opsz' 40"
+    containerRef={containerRef}
+    radius={100}
+    falloff='linear'
+  />
+</div>
   );
 }
 
