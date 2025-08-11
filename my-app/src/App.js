@@ -1,6 +1,5 @@
 import './App.css';
 import { useRef } from "react";
-import Image from 'some-image-lib';
 import VariableProximity from './VariableProximity';
 
 function App() {
