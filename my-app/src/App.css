@@ -6,3 +6,8 @@
   user-select: none;       /* prevent accidental text selection */
   margin: 0;               /* reset any margin */
 }
+.logo {
+  margin-left:10px;
+  width:20px;
+  height:20px;
+}

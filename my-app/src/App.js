@@ -1,6 +1,6 @@
 import './App.css';
 import { useRef } from "react";
-
+import Image from 'some-image-lib';
 import VariableProximity from './VariableProximity';
 
 function App() {
@@ -12,6 +12,11 @@ function App() {
       ref={containerRef}
       style={{ position: 'relative' }}
     >
+      <img
+        className="logo"
+        src="./pixil-frame-0 (21).png"
+        alt="Logo"
+      />
       <VariableProximity
         label={'Bloxd World'}
         className={'variable-proximity-demo'}
