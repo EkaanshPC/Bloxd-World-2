@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+// Component inspired by Tom Miller from the GSAP community
+// https://codepen.io/creativeocean/pen/NPWLwJM
+
+import ScrambledText from './ScrambledText';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+<ScrambledText
+  className="scrambled-text-demo"
+  radius={100}
+  duration={1.2}
+  speed={0.5}
+  scrambleChars={".:"}
+>
+</ScrambledText>
+
     </div>
   );
 }
