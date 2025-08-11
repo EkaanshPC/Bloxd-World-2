@@ -1,0 +1,8 @@
+
+{
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+  "features": {
+    "node": "18"  // or whatever version you want
+  },
+  "postCreateCommand": "npm install"
+}
