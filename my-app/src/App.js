@@ -76,8 +76,6 @@ const ScrambledText = ({
   );
 };
 
-import ScrambledText from './ScrambledText';
-
 function App() {
   return (
     <div className="App">
