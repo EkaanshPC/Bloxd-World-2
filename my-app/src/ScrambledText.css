@@ -1,6 +1,6 @@
 .text-block {
   max-width: 800px;
-  font-family: monospace;
+  font-family: 'Helvetica' sans-serif;
   font-size: clamp(14px, 4vw, 32px);
   color: #000000;
   text-align:center;
