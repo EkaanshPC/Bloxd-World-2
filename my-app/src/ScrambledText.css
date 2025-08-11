@@ -1,6 +1,7 @@
 .text-block {
   max-width: 800px;
   font-size: clamp(14px, 4vw, 32px);
+  font-family:monospace;
   text-align:center;
 }
 
