@@ -9,13 +9,13 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Bloxd Land</title>
+        {/*<title>Bloxd Land</title>
         <meta name="description" content="Bloxd Lands is a community-driven site where you can upload, vote, and explore creative things for Bloxd. Built by NeonJet Studios." />
         <meta property="og:title" content="Bloxd Land" />
         <meta property="og:description" content="Explore Bloxd Mods!" />
         <meta property="og:image" content="/herobanner.png" />
         <meta property="og:url" content="https://bloxd-lands.pages.dev" />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary_large_image" />*/}
       </Helmet>
 
       <div ref={containerRef} style={{ fontFamily: "sans-serif" }}>
