@@ -70,6 +70,9 @@ function App() {
             containerRef={containerRef}
             radius={100}
             falloff="linear"
+            style={{
+              margin-top:"20px"
+            }}
           />
         ))}
 
