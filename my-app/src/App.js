@@ -8,17 +8,19 @@ function App() {
 
   return (
     <div ref={containerRef} style={{ fontFamily: "sans-serif" }}>
+      {/* NAVBAR */}
       <nav
         style={{
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
-          padding: "10px 30px",
+          padding: "15px 30px",
           background: "#111",
           color: "white",
           position: "sticky",
           top: 0,
-          zIndex: 100
+          zIndex: 100,
+          height: "70px", // 👈 Explicit height
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
@@ -38,28 +40,29 @@ function App() {
         </ul>
       </nav>
 
-     <section
-  id="home"
-  style={{
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-    height: "80vh",
-    paddingTop: "80px",
-    background: "linear-gradient(to bottom, #222, #000)",
-    color: "white",
-    textAlign: "center",
-    gap: "20px"
-  }}
->
-
-        
+      {/* HERO SECTION */}
+      <section
+        id="home"
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          minHeight: "calc(100vh - 70px)", // 👈 Adjust for navbar height
+          paddingTop: "80px", // 👈 Prevent overlap
+          paddingBottom: "40px",
+          background: "linear-gradient(to bottom, #222, #000)",
+          color: "white",
+          textAlign: "center",
+          gap: "20px"
+        }}
+      >
         <img
           src="/herobanner.png"
-          alt="Logo"
+          alt="Hero Banner"
+          style={{ maxWidth: "100%", height: "auto" }}
         />
-        
+
         {words.map((word, index) => (
           <VariableProximity
             key={index}
@@ -70,9 +73,6 @@ function App() {
             containerRef={containerRef}
             radius={100}
             falloff="linear"
-            style={{
-              margin-top:"20px"
-            }}
           />
         ))}
 
@@ -80,7 +80,7 @@ function App() {
           The Place For BLOXD mods!
         </p>
 
-        <div style={{ display: "flex", gap: "15px" }}>
+        <div style={{ display: "flex", gap: "15px", flexWrap: "wrap", justifyContent: "center" }}>
           <button style={btnStyle}>Play Now</button>
           <button style={{ ...btnStyle, background: "transparent", border: "2px solid white" }}>
             Learn More
@@ -88,12 +88,13 @@ function App() {
         </div>
       </section>
 
+      {/* FOOTER */}
       <footer
         style={{
           background: "#111",
           color: "white",
           textAlign: "center",
-          padding: "15px",
+          padding: "20px",
           fontSize: "14px"
         }}
       >
@@ -124,3 +125,4 @@ const btnStyle = {
 };
 
 export default App;
+
