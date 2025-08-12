@@ -11,13 +11,10 @@ function App() {
       ref={containerRef}
       style={{ position: 'relative' }}
     >
-      <img
-        className="logo"
-        src="bloxdlandslogo.png"
-        alt="Logo"
-      />
+      <img src="/bloxdlandslogo.png" alt="Logo" />
+
       <VariableProximity
-        label="Bloxd World"
+        label="Bloxd\nWorld"
         className="variable-proximity-demo"
         fromFontVariationSettings="'wght' 400, 'opsz' 9"
         toFontVariationSettings="'wght' 1000, 'opsz' 40"
