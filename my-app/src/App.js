@@ -52,11 +52,15 @@ function App() {
           gap: "20px"
         }}
       >
+        <br/><br/><br/><br/><br/><br/>
+        
         <img
           src="/herobanner.png"
           alt="Logo"
         />
-
+<br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/>
+        
         {words.map((word, index) => (
           <VariableProximity
             key={index}
