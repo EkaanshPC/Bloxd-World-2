@@ -2,16 +2,12 @@ import './App.css';
 import { useRef } from "react";
 import VariableProximity from './VariableProximity';
 
-import { useRef } from "react";
-import VariableProximity from "./VariableProximity"; // adjust path
-
 function App() {
   const containerRef = useRef(null);
   const words = ["Bloxd", "World"];
 
   return (
     <div ref={containerRef} style={{ fontFamily: "sans-serif" }}>
-      {/* Navbar */}
       <nav
         style={{
           display: "flex",
