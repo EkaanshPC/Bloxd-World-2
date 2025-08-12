@@ -64,21 +64,9 @@ function App() {
           style={{ maxWidth: "100%", height: "auto" }}
         />
 
-        {words.map((word, index) => (
-          <VariableProximity
-            key={index}
-            label={word}
-            className="variable-proximity-demo"
-            fromFontVariationSettings="'wght' 400, 'opsz' 9"
-            toFontVariationSettings="'wght' 1000, 'opsz' 40"
-            containerRef={containerRef}
-            radius={100}
-            falloff="linear"
-          />
-        ))}
 
 <p style={{ fontSize: "22px", fontWeight: "500", textAlign: "center" }}>
-  The Place For{" "}
+  Bloxd Lands is the #1 place for{" "}
   <span style={{ display: "inline-block" }}>
     <RotatingText
       texts={["Mods", "Texture Packs", "Schematics"]}
