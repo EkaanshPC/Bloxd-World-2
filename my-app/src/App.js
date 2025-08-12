@@ -38,28 +38,27 @@ function App() {
         </ul>
       </nav>
 
-      <section
-        id="home"
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          height: "80vh",
-          background: "linear-gradient(to bottom, #222, #000)",
-          color: "white",
-          textAlign: "center",
-          gap: "20px"
-        }}
-      >
-        <br/><br/><br/><br/><br/><br/>
+     <section
+  id="home"
+  style={{
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    height: "80vh",
+    paddingTop: "80px",
+    background: "linear-gradient(to bottom, #222, #000)",
+    color: "white",
+    textAlign: "center",
+    gap: "20px"
+  }}
+>
+
         
         <img
           src="/herobanner.png"
           alt="Logo"
         />
-<br/><br/><br/><br/><br/><br/>
-        <br/><br/><br/><br/><br/><br/>
         
         {words.map((word, index) => (
           <VariableProximity
