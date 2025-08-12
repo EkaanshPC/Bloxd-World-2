@@ -1,11 +1,9 @@
 import './App.css';
 import { useRef } from "react";
-import VariableProximity from './VariableProximity';
 import RotatingText from './RotatingText'
   
 function App() {
   const containerRef = useRef(null);
-  const words = ["Bloxd World"];
 
   return (
     <div ref={containerRef} style={{ fontFamily: "sans-serif" }}>
