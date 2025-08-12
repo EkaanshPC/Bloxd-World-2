@@ -3,6 +3,9 @@
   flex-wrap: wrap;
   white-space: pre-wrap;
   position: relative;
+  background-color: cyan;
+    padding: 10px;
+    border-radius:10px;
 }
 
 .text-rotate-sr-only {
